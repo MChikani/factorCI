@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rci"
+version = "0.1.0"
+description = ""
+authors = ["ScaryNights <119367244+ScaryNights@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
